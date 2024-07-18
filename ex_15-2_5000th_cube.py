@@ -18,6 +18,6 @@ ax.set_ylabel("Cube of Value", fontsize=14)
 # Set size of tick labels
 ax.tick_params(labelsize=14)
 
-ax.axis([0, 5000, 0, 5_100_000])
+ax.axis([0, 5000, 0, 135000000000])
 ax.ticklabel_format(style='plain')
 plt.show()
