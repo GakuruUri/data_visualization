@@ -29,5 +29,6 @@ ax.tick_params(labelsize=14)
 ax.axis([0, 1100, 0, 1_100_000])
 # ax.ticklabel_format(style='plain')
 
-
+# plt.savefig('square_plot.png', bbox_inches='tight') | 
+# If you want to save the plot to a file instead of showing it in the Matplotlib viewer, you can use plt.savefig() instead of plt.show():
 plt.show()
